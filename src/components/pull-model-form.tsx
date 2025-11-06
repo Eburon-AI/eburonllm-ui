@@ -148,20 +148,11 @@ export default function PullModelForm() {
                 <Input
                   {...field}
                   type="text"
-                  placeholder="llama2"
+                  placeholder="eburon/pro"
                   value={field.value || ""}
                 />
               </FormControl>
               <p className="text-xs pt-1">
-                Check the{" "}
-                <a
-                  href="https://ollama.com/library"
-                  target="_blank"
-                  className="text-blue-500 underline"
-                >
-                  library
-                </a>{" "}
-                for a list of available models.
               </p>
               <FormMessage />
               <div className="space-y-2 w-full">
